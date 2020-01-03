@@ -1,0 +1,12 @@
+  
+- hosts: localhost
+  connection: local
+  tasks:
+    - name: Install ansible pip dependencies for Ansible
+      pip:
+        name: "{{ item }}"
+        state: latest
+      with_items:
+        - jmespath
+        - hvac
+        - "hvac[parser]"
