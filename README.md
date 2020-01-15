@@ -1,4 +1,4 @@
-# fix ansible-awx hashi_vault error
+# Fix ansible-awx hashi_vault error
 
 ```
 ASK [Gathering Facts] *************************************************************************************************************************************************************************************
@@ -8,9 +8,9 @@ fatal: [serverIP]: FAILED! => {
 }
 ```
 
-# how to fix
+# How to fix
 
-add this repo to new proyect and create an template to execute playbook on localhost.
+Add this repository to a new proyect and create a template to run the playbook in localhost.
 
 playbook:
 
